@@ -1,0 +1,389 @@
+body {
+	background-image: linear-gradient(-0deg, #00508F, #DB6A67, #519FDB, #00508F);
+	background-size: 400% 400%;
+	animation: background;
+	animation-duration: 15s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	background-position-x: 0;
+	background-position-y: 0;
+}
+
+@keyframes background {
+	from{background-position-x: -100%; background-position-y: -100%}
+	to{background-position-x: 100%; background-position-y: 100%}
+}
+
+.audio {
+	position: absolute;
+	top: 100%;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball0 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion0 5s linear infinite;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion 2s linear infinite;
+}
+
+.ball2 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion2 3s linear infinite;
+}
+
+.ball3 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion3 4s linear infinite;
+}
+
+.ball4 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion4 5s linear infinite;
+}
+
+.ball5 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion5 6s linear infinite;
+}
+
+.ball6 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion6 7s linear infinite;
+}
+
+.ball7 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion7 8s linear infinite;
+}
+
+.ball8 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion8 9s linear infinite;
+}
+
+
+@keyframes circularMotion0 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(0px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(0px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(50px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(50px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion2 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(70px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(70px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion3 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(90px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(90px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion4 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(110px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(110px) rotate(-0deg);
+    }
+}
+
+@keyframes circularMotion5 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(130px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(130px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion6 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(150px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(150px) rotate(-0deg);
+    }
+}
+
+@keyframes circularMotion7 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(170px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(170px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion8 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(190px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(190px) rotate(-0deg);
+    }
+}
+
+.ball9 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion9 1.9s linear infinite;
+}
+
+.ball10 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion10 2.9s linear infinite;
+}
+
+.ball11 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion11 3.9s linear infinite;
+}
+
+.ball12 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion12 4.9s linear infinite;
+}
+
+.ball13 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion13 5.9s linear infinite;
+}
+
+.ball14 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion14 6.9s linear infinite;
+}
+
+.ball15 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion15 7.9s linear infinite;
+}
+
+.ball16 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion16 8.9s linear infinite;
+}
+
+.ball17 {
+    width: 20px;
+    height: 20px;
+    background-color: #FF7F50;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    animation: circularMotion17 9.9s linear infinite;
+}
+
+
+@keyframes circularMotion9 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(30px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(30px) rotate(-0deg);
+    }
+}
+
+@keyframes circularMotion10 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(50px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(50px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion11 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(70px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(70px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion12 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(90px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(90px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion13 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(110px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(110px) rotate(-0deg);
+    }
+}
+
+@keyframes circularMotion14 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(130px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(130px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion15 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(150px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(150px) rotate(-0deg);
+    }
+}
+
+@keyframes circularMotion16 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(0deg) translateX(170px) rotate(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(360deg) translateX(170px) rotate(-360deg);
+    }
+}
+
+@keyframes circularMotion17 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg) rotate(360deg) translateX(190px) rotate(360deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg) rotate(0deg) translateX(190px) rotate(-0deg);
+    }
+}
